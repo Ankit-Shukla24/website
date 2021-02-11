@@ -78,7 +78,6 @@
        grid-template-columns: none;
        grid-template-rows: repeat(4,1fr);   }
 
-}
 
 #about-e .test-btm {
     display: flex;
@@ -90,4 +89,5 @@
     display: grid;
     grid-template-columns:none;
     grid-template-rows: repeat(9,1fr);
+}
 }
