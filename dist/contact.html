@@ -40,11 +40,7 @@
 </div>
 </section>
 </section>
-<form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
-  <p class="hidden">
-  <p class="hidden">
-    <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
-  </p>
+<form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
     <label for="name">Name</label>
     <input type="text" name="name" id="name">
     <label for="contact">Contact</label>
@@ -53,6 +49,7 @@
     <input type="email" name="email" id="email">
     <label  for="message">Message</lable>
     <textarea type="text" name="message" id="message"></textarea>
+      <div data-netlify-recaptcha="true"></div>
     <input type="submit" value="Contact now">
 </form>
 <footer>
